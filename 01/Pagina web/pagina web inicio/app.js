@@ -28,8 +28,21 @@ app.get('/04', function(req, res){
 app.get('/05', function(req, res){
 		res.render('05.jade');
 	});
-
-
+app.get('/06', function(req, res){
+		res.render('06.jade');
+	});
+app.get('/07', function(req, res){
+		res.render('07.jade');
+	});
+app.get('/08', function(req, res){
+		res.render('08.jade');
+	});
+app.get('/09', function(req, res){
+		res.render('09.jade');
+	});
+app.get('/10', function(req, res){
+		res.render('10.jade');
+	});	
 
 	app.listen(3000, function(){
 
